@@ -11,5 +11,7 @@
     Track deployment success
     Frontend dashboard integration
 </p>
+    <hr>
+    <h1>Start Dev Mode</h1>
   </div>
 </template>
