@@ -13,5 +13,6 @@
 </p>
     <hr>
     <h1>Start Dev Mode</h1>
+    <h2>test header2</h2>
   </div>
 </template>
