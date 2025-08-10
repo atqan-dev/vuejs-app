@@ -5,6 +5,8 @@
     <header>
       <h1>🚀 Atqan TECH - Deployment Dashboard</h1>
       <p class="subtitle">Monitor, track, and verify your app deployments</p>
+      <hr>
+      <h1 class="timeheader">📅 {{ currentDateTime }}</h1>
     </header>
 
     <section class="features">
@@ -31,7 +33,24 @@
     </section>
   </div>
 </template>
+<script setup>
+import { ref, onMounted } from 'vue'
 
+const currentDateTime = ref('')
+
+onMounted(() => {
+  // Format: YYYY-MM-DD HH:mm:ss
+  const now = new Date()
+  currentDateTime.value = now.toLocaleString('en-US', {
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+    hour: '2-digit',
+    minute: '2-digit',
+    second: '2-digit'
+  })
+})
+</script>
 <style scoped>
 .container {
   max-width: 800px;
@@ -46,7 +65,12 @@ header {
   text-align: center;
   margin-bottom: 2rem;
 }
-
+.timeheader {
+  text-align: center;
+  padding: 1rem;
+  background: #f9f9f9;
+  border-bottom: 1px solid #ddd;
+}
 .subtitle {
   font-size: 1rem;
   color: #666;
