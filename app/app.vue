@@ -3,11 +3,11 @@
     <NuxtRouteAnnouncer />
 
     <header>
-      <h1>Atqan BMS</h1>
+      <h1 class="timeheader">📅 {{ currentDateTime }}</h1>
+      <hr>
+      <h1>Atqan BMS  </h1>
       <h2>🚀 Deployment Dashboard</h2>
       <p class="subtitle">Monitor, track, and verify your app deployments</p>
-      <hr>
-      <h1 class="timeheader">📅 {{ currentDateTime }}</h1>
     </header>
 
     <section class="features">
