@@ -3,7 +3,7 @@
     <NuxtRouteAnnouncer />
 
     <header>
-      <h1>Atqan BMS  </h1>
+      <h1>Atqan - test vuejs app - deploy  </h1>
       <h2>🚀 Deployment Dashboard</h2>
       <p class="subtitle">Monitor, track, and verify your app deployments</p>
     </header>
