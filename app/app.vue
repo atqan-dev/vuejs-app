@@ -4,7 +4,7 @@
 
     <header>
       <h1>  من أجل تجربة </h1>
-      <h1>Atqan - test vuejs app - deploy ........ </h1>
+      <h1>Atqan - test vuejs app - deploy </h1>
       <p class="subtitle">Monitor, and verify your app deployments.........</p>
     </header>
 
