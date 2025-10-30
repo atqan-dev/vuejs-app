@@ -3,7 +3,7 @@
     <NuxtRouteAnnouncer />
 
     <header>
-      <h1>  من أجل تجربة  1:26</h1>
+      <h1>  من أجل تجربة  1:59</h1>
       <h1>Atqan - test vuejs app - deploy </h1>
       <p class="subtitle">Monitor, and verify your app deployments.........</p>
     </header>
