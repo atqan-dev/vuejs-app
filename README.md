@@ -10,9 +10,6 @@ Make sure to install dependencies:
 # pnpm
 pnpm install
 
-# yarn
-yarn install
-
 # bun
 bun install
 ```
